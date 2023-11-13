@@ -1,0 +1,70 @@
+/*Query mas grande*/
+@media screen and (max-width: 950px) 
+{
+    /*Cambio en el contenedor principal del main*/
+    /*para que funcione hay que respetar las reglas de especificidad, es decir, mientras mas especifico el selector, mas probable que los cambios esteticos surtan efecto*/
+    body main div#contenedor-servicios {
+        flex-direction: column;
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    body main div#contenedor-servicios article {
+        margin-bottom: 1%;
+    }
+    main div#contenedor-servicios h2{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 7px;
+    }
+    body main div#contenedor-servicios article p {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 672px) 
+{
+    
+  
+    /*QUERYS DEL NAV*/
+    nav{
+        flex-direction: column;
+        height: 70px;
+        height: auto;       
+    }
+    nav div#contenedor-de-logoytitulo {
+        display: inline-flex;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    nav a {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    nav a:hover {
+        border-bottom: 3px solid white;
+        transition: 0.5s;
+        color: rgb(46, 129, 239);
+        background-color: rgba(127, 255, 212, 0.304);
+        border-radius: 5px;
+    }
+
+    /*QUERYS DEL HEADER*/
+    header{
+        display: none;
+    }
+
+    /*QUERYS DEL MAIN*/
+   
+    body main div#contenedor-servicios article p {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 3%;
+    }
+    body main div#contenedor-servicios img{
+        margin-bottom: 1%;
+    }
+     
+}
