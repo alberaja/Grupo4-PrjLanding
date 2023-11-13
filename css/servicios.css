@@ -1,0 +1,39 @@
+/*           --------------        Servicios        -------------          */
+
+/*Uso de regla @import para importar fuentes externas en CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.section-servicios { /*Grilla*/
+	display: grid;
+  	grid-template-rows: 1fr;
+  	grid-template-columns: repeat(4, 1fr);
+    align-items: centre;
+    justify-content: centre;
+}
+
+.divServiciosItem {
+	background-color: #070707;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.a-Servicios, h2 {
+	color: #f8f8fa;
+    text-decoration: none;
+	font-size: 30px;
+	font-family: 'Outfit', sans-serif;
+	margin-left: 20px;
+}
+
+.p-Servicios {
+	color: #f8f8fa;;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.imgServicios {
+	width: 100%;	
+}
