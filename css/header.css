@@ -3,6 +3,10 @@ header {
     height: 300px;
     width: auto;
     position: relative;
+    font-family: 'Outfit', sans-serif;
+    
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.758);
 }
 header h2{
     margin-top: 115.5px;

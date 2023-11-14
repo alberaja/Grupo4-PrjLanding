@@ -4,7 +4,21 @@ nav {
     background-color: rgb(0, 0, 0);
     position: relative;
     height: 70px;
+    font-family: 'Outfit', sans-serif;
 }
+
+/*contenedor del logo y H1*/
+nav div#contenedor-de-logoytitulo {
+    width: 210px;
+    margin-right: 4%;
+    display: inline-flex;
+    align-items: center;
+}
+/*contenedor del logo y H1*/
+nav div#contenedor-menu-haburguesa {
+    display: inline-flex;
+}
+
 nav a{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -13,7 +27,7 @@ nav a{
     margin-right: 1.5%;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: rgb(232, 229, 229);
     
     /*modificado*/
     padding-top: 5px;
@@ -23,8 +37,6 @@ nav a{
     
 }
 
-
-
 /*modificado*/
 nav a:hover {
     border-bottom: 3px solid white;
@@ -32,13 +44,14 @@ nav a:hover {
     color: rgb(46, 129, 239);
 }
 nav h1 {
-    margin-left: 2.5%;
+    margin-top: 0;
+    margin-bottom: 0;
     color: white;
-    margin-right: 6%;
+    margin-left: 1%;
+    
 }
 nav img {
-    margin-top: 10px;
-    margin-left: 0.4%;
+    margin-top: 0;
     height: 54px;
     width: 54px;
 }
