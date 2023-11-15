@@ -13,6 +13,12 @@
         margin-left: 1%;
         margin-right: 1%;
     }
+    body main div#contenedor-servicios-explicados {
+        width: 98%;
+        
+        margin-left: 1%;
+        margin-right: 1%;
+    } 
     body main div#contenedor-servicios article {
         margin-bottom: 1%;
     }
@@ -61,6 +67,9 @@
     }
 
     /*QUERYS DEL MAIN*/
+    body main div#contenedor-servicios-explicados {
+        margin-top: 0.5%;
+    } 
     body main div#contenedor-servicios h2.banner-articulos-servicios{
         margin-left: 20px;
     }
@@ -73,5 +82,50 @@
     body main div#contenedor-servicios img{
         margin-bottom: 1%;
     }
-     
+    
+
+
+
+
+    /*Experimental*/
+    /*desaparezco las imagenes de el contenedor de servicios exlicado*/
+    body main div#contenedor-servicios-explicados .cajita-imagenes {
+        display: none;
+    } 
+    body main div#contenedor-servicios-explicados h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+    body main div#contenedor-servicios-explicados p{
+        padding-bottom: 20px;
+    }
+
+    /*Menu Hambuerguesa experimental*/
+    body main div#contenedor-servicios-explicados label{
+        text-align: center;
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        background-color: rgb(94, 94, 94);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: 'Outfit', sans-serif;
+    }
+    body main div#contenedor-servicios-explicados label:hover{
+        background-color: green;
+        color: rgb(250, 94, 255);
+        transition: 0.5s;
+    }
+    body main div#contenedor-servicios-explicados .articulos-explicados{
+        display: none;
+    }
+    body main div#contenedor-servicios-explicados input:checked ~  .articulos-explicados{
+        display: block;
+    }
+      
 }

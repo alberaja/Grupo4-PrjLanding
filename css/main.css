@@ -45,11 +45,15 @@ main div#contenedor-servicios h2.banner-articulos-servicios{
 main div#contenedor-servicios p{
     text-align: left;
     font-size: 16px;
+    font-weight: bold;
     color: rgb(232, 229, 229);
     padding-left: 12%;
     padding-right: 12%;
     margin-bottom: 5%;
     font-family: 'Roboto', sans-serif;
+
+    
+   
 }
 main div#contenedor-servicios img{
     margin-top: 5%;
@@ -64,19 +68,23 @@ main div#contenedor-servicios-explicados {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 } 
 main div#contenedor-servicios-explicados .articulos-explicados{
     display: flex;
     align-items: center;
     background-color: black;
     margin-top: 5px;
+    margin-bottom: 10px;
 
     margin-left: 5px;
     margin-right: 5px;
 }
 /*a esta cajita le digo que ocupe un 80% de su padre*/
 main div#contenedor-servicios-explicados p{
-   font-size: 16px;
+   font-size: 18px;
+   font-weight: bold;
    flex: 80%;
 
    margin-left: 5%;
@@ -99,11 +107,21 @@ main div#contenedor-servicios-explicados h3{
 main div#contenedor-servicios-explicados figure{
     flex: 25%;
     margin: 0;
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
 }
 main div#contenedor-servicios-explicados img{
     width: 100%;
     object-fit: cover;
 }
+
+/*Imput del menu hamburguesa y label*/
+main div#contenedor-servicios-explicados label{
+    display: none;
+}
+main div#contenedor-servicios-explicados input{
+    display: none;
+}
+
+
 
