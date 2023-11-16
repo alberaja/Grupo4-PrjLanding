@@ -4,7 +4,7 @@
     /*Cambio en el contenedor principal del main*/
     /*para que funcione hay que respetar las reglas de especificidad, es decir, mientras mas especifico el selector, mas probable que los cambios esteticos surtan efecto*/
     body main h2#baner-contenedor-servicios {
-        text-align: left;
+        text-align: center;
         margin-left: 1.5%;
     }
     body main div#contenedor-servicios {
@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (max-width: 672px) 
+@media screen and (max-width: 720px) 
 {
     
   
@@ -95,6 +95,7 @@
     body main div#contenedor-servicios-explicados h3{
         text-align: center;
         padding-top: 20px;
+        margin-left: 0;
     }
     body main div#contenedor-servicios-explicados p{
         padding-bottom: 20px;
@@ -128,4 +129,13 @@
         display: block;
     }
       
+}
+
+@media screen and (max-width: 384px) {
+    body div#formulario {
+        width: 90%;
+    }
+    body div#formulario form {
+        width: 90%;
+    }
 }

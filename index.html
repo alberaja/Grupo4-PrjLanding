@@ -18,10 +18,9 @@
             <h1>Digital Minds</h1>
         </div>
         
-        <a href="#">Home</a>
-        <a href="#">Servicios</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contacto</a>
+        <a href="#baner-contenedor-servicios">Servicios</a>
+        <a href="#baner-contenedor-nosotros">Nosotros</a>
+        <a href="#baner-contenedor-contacto">Contacto</a>
 
     </nav>
 
@@ -29,6 +28,7 @@
     background: url(img/FONDObrutalmodif3.jpg);  background-size: cover; 
     background-position: center;">
         <h2>Digitalizamos la Mente</h2>
+        <h3>Confia en nostros para impulsar tu Negocio</h3>
     </header>
 
     <main>
@@ -164,8 +164,117 @@
             </article>
 
         </div>
-                
+
+
+        <h2 id="baner-contenedor-nosotros" style="color: #5f5d5d;">Nosotros</h2>
+        <div id="contenedor-cajitas-fotoscompañeros">
+
+            <article id="contenedor-elementos-decajita">
+                <h3>
+                    Alvaro Gonzalez
+                </h3>
+
+                <div class="cajita-imagenes">
+                    <figure>
+                        <img src="img/alvaro.png" alt="alvaro">
+                    </figure>
+                </div>
+               
+                <div>
+                    <p>
+                        Analista de datos experto y creativo que ofrece soluciones tecnológicas eficientes y rentables para impulsar el éxito empresarial. 
+                    </p>
+                </div>
+            </article>
+
+            <article id="contenedor-elementos-decajita">
+                <h3>
+                    Roxana Paredes
+                </h3>
+
+                <div class="cajita-imagenes">
+                    <figure>
+                        <img src="img/Roxana.jpg" alt="roxana">
+                    </figure>
+                </div>
+               
+                <div>
+                    <p>
+                        Consultora de soluciones tecnológicas analítico y estratégico que ofrece soluciones innovadoras y oportunidades para clientes y equipos.
+                    </p>
+                </div>
+            </article>
+
+            <article id="contenedor-elementos-decajita">
+                <h3>
+                    Alberto Jiménez
+                </h3>
+
+                <div class="cajita-imagenes">
+                    <figure>
+                        <img src="img/Alberto.png" alt="alberto">
+                    </figure>
+                </div>
+               
+                <div>
+                    <p>
+                        Analista de soluciones tecnológicas creativo y analítico que ofrece soluciones innovadoras y sólidas para la evolución tecnológica empresarial.
+                    </p>
+                </div>
+            </article>
+            <article id="contenedor-elementos-decajita">
+                <h3>
+                    Elena Pombo
+                </h3>
+
+                <div class="cajita-imagenes">
+                    <figure>
+                        <img src="img/Elena.png" alt="elena">
+                    </figure>
+                </div>
+               
+                <div>
+                    <p>
+                        Asesor tecnológico experto y eficiente que ofrece soluciones innovadoras y accesibles para el ámbito digital.
+                    </p>
+                </div>
+            </article>
+
+            <article id="contenedor-elementos-decajita">
+                <h3>
+                    Laudy Navarrete
+                </h3>
+
+                <div class="cajita-imagenes">
+                    <figure>
+                        <img src="img/Laudy.png" alt="Laudy">
+                    </figure>
+                </div>
+               
+                <div>
+                    <p>
+                        Consultora tecnológica experta y visionaria que ofrece asesoramiento y soluciones innovadoras para superar desafíos y lograr el éxito.
+                    </p>
+                </div>
+            </article>
+
+        </div>        
+
+
     </main>
+
+    <h2 id="baner-contenedor-contacto" style="color: #5f5d5d;">Contacto</h2>
+    <div id="formulario">
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" style="width: 100%;" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" style="width: 100%;" name="email" /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje" style="width: 100%;"></textarea><br />
+            <input type="submit" value="Enviar" style="background-color: rgb(19, 143, 19); border-radius: 8px; color: white; padding-left: 15px; padding-right: 15px; font-family: 'Outfit', sans-serif; cursor: pointer; margin-top: 5px; margin-left: 36%;" />
+        </form>
+    </div>  
 
     <footer>
 
